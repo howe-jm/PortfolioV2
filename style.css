@@ -5,7 +5,7 @@
   background: #272727;
   justify-content: center;
   padding-right: 1000em;
-  width: 28em;
+  width: 30.1em;
   margin-left: 19em;
 }
 
@@ -29,10 +29,9 @@
 
 .header-child-name {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #FFFFFF;
+  color: #EEFBFA;
   font-size: 1.7rem;
 }
-
 
 .header-subheader {
   font-size: 1.3em;
@@ -67,36 +66,44 @@
   height: auto;
   width: 48em;
   flex-wrap: wrap;
+  margin-top: 0.5em;
 }
 
 .side-image {
   display: flex;
   height: 16em;
   width: 16em;
-  background: #FFFFFF;
+  background: #EEFBFA;
   margin-right: 1.2em;
+}
+
+.side-image img,
+.side-image-mid img {
+  height: 16em;
 }
 
 .side-image-mid {
   display: flex;
   height: 16em;
   width: 16em;
-  background: #FFFFFF;
+  background: #EEFBFA;
   margin-left: 1.2em;
 }
 
 .main-subchild {
   width: 30.8em;
-  background: #FFFFFF;
+  background: #EEFBFA;
 }
 
 .main-subchild-mid {
   width: 30.8em;
-  background: #FFFFFF;
+  background: #EEFBFA;
 }
 
-.main-subchild p {
-
+.main-subchild p,
+.main-subchild-mid p {
+  font-family: Ebrima; sans-serif;
+  padding-left: 1em;
 }
 
 /* Footer classes */
